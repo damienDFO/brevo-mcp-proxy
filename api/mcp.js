@@ -1,3 +1,7 @@
+export const config = {
+  runtime: "nodejs"
+};
+
 export default async function handler(req, res) {
 
   const response = await fetch("https://mcp.brevo.com/v1/brevo/mcp", {
